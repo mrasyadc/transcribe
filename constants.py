@@ -1,0 +1,1 @@
+MODEL_ID = "openai/whisper-large-v3"
