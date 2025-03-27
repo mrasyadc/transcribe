@@ -9,7 +9,7 @@ wheels/
 # Virtual environments
 .venv
 
-input/
-output/
+input/**
+output/**
 
 .DS_Store

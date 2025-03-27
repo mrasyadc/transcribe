@@ -34,12 +34,12 @@ def main():
     )
 
     # Example usage:
-    input_data = "input/input.mp3"
+    input_data = constants.INPUT_DATA
     outputs = pipe(input_data)
     print(outputs)
 
     # Writes to output/scene.txt
-    with open("output/bu-rini.txt", "w", encoding="utf-8") as f:
+    with open("output/" + input_data, "w", encoding="utf-8") as f:
         f.write(outputs["text"])
 
 
