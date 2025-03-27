@@ -30,7 +30,7 @@ def main():
         feature_extractor=processor.feature_extractor,
         torch_dtype=torch_dtype,
         # device=-1,  # Set to -1 since we've already moved the model to MPS
-        # return_timestamps=True
+        return_timestamps=True
     )
 
     # Example usage:
