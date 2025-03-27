@@ -9,7 +9,15 @@ wheels/
 # Virtual environments
 .venv
 
-input/**
-output/**
+# Ignore all files in the input folder
+input/*
+# But do not ignore the folder itself if it contains .gitkeep
+!input/.gitkeep
+
+# Ignore all files in the output folder
+output/*
+# But do not ignore the folder itself if it contains .gitkeep
+!output/.gitkeep
+
 
 .DS_Store
