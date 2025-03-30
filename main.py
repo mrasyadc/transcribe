@@ -39,8 +39,8 @@ def main():
     print(outputs)
 
     # Writes to output/scene.txt
-    with open("output/" + input_data, "w", encoding="utf-8") as f:
-        f.write(outputs["text"])
+    with open("output/bu-rini-timestamp.txt", "w", encoding="utf-8") as f:
+        f.write(str(outputs["chunks"]))
 
 
 
